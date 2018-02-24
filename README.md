@@ -2,6 +2,7 @@
 
 ### Description
 
+
 Write a method makeExchange that will determine the minimum number of coins needed to make change for a given amount in American currency.
 Coins used will be half-dollars, quarters, dimes, nickels, and pennies, worth 50¢, 25¢, 10¢, 5¢ and 1¢, respectively.
 They'll be represented by the strings H, Q, D, N and P.
@@ -11,6 +12,9 @@ The return value should be an object with the symbols as keys, and the numbers o
 Coins that are not used should not be included in the object.
 
 ### IMPORTANT NOTES
+
+<!-- Если аргумент передан в 0 или меньше, то метод должен возвращать пустой объект.
+Если валюта, которую вы хотите обменять более чем на 10000, пожалуйста, верните следующий объект: -->
 
 If the argument passed in is 0 or less, then the method should return an empty object.
 If the currency that you would like to exchange more than 10000 please return next object:
