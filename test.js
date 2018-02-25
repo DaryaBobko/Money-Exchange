@@ -1,5 +1,5 @@
 const assert = require('assert');
-Object.freeze(assert);
+Object.freeze(assert); 
 const makeExchange = require('./src/index.js');
 
 describe('makeExchange function', () => {
